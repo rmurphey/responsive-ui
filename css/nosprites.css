@@ -1,0 +1,17 @@
+ul li {
+	padding:0 0 0 30px;
+	background-position:0 0;
+	background-color:transparent;
+	background-repeat:no-repeat;
+}
+
+.accept { background-image:url('../img/accept.png'); }
+.add { background-image:url('../img/add.png'); }
+.anchor { background-image:url('../img/anchor.png'); }
+.application_add { background-image:url('../img/application_add.png'); }
+.application_cascade { background-image:url('../img/application_cascade.png'); }
+.application_delete { background-image:url('../img/application_delete.png'); }
+.application_double { background-image:url('../img/application_double.png'); }
+.application_edit { background-image:url('../img/application_edit.png'); }
+.application_error { background-image:url('../img/application_error.png'); }
+.application_form_add { background-image:url('../img/application_form_add.png'); }
