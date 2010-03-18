@@ -35,7 +35,6 @@
 			tb_show($a.attr('title'), $a.attr('href'), $a.attr('rel'));
 			$('span.mail').fixEmail();
 		});
-	});
 		
 	var $ = jQuery; 
 	
