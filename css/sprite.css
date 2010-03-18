@@ -1,0 +1,35 @@
+/*
+ul li {
+	padding:0 0 0 30px;
+	background-position:0 0;
+	background-color:transparent;
+}
+
+.accept { background-image:url('../img/accept.png'); }
+.add { background-image:url('../img/add.png'); }
+.anchor { background-image:url('../img/anchor.png'); }
+.application_add { background-image:url('../img/application_add.png'); }
+.application_cascade { background-image:url('../img/application_cascade.png'); }
+.application_delete { background-image:url('../img/application_delete.png'); }
+.application_double { background-image:url('../img/application_double.png'); }
+.application_edit { background-image:url('../img/application_edit.png'); }
+.application_error { background-image:url('../img/application_error.png'); }
+.application_form_add { background-image:url('../img/application_form_add.png'); }
+*/
+
+ul li {
+	padding:0 0 0 30px;
+	background-image:url('../img/sprite.gif');
+	background-repeat:no-repeat;
+}
+
+.accept { background-position: 0 -134px; }
+.add { background-position: 0 -120px; }
+.anchor { background-position: 0 -106px; }
+.application_add { background-position: 0 -91px; }
+.application_cascade { background-position: 0 -75px; }
+.application_delete { background-position: 0 -60px; }
+.application_double { background-position: 0 -45px; }
+.application_edit { background-position: 0 -30px; }
+.application_error { background-position: 0 -15px; }
+.application_form_add { background-position: 0 0; }
