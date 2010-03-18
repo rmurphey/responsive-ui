@@ -1,3 +1,5 @@
+		$.historyInit = function() {};
+
 		jQuery.fn.fixEmail = function() {
 			return $(this).each(function() {
 				var $s = $(this);
@@ -76,7 +78,6 @@
 		},
 		
 		showTab : function($li) {
-			$li.data('contentArea').show().siblings().hide();
 			$li.addClass('current').siblings().removeClass('current');
 			
 			cc.loadContent($li, function() {
@@ -117,7 +118,6 @@
 			}
 			
 			if (doLoad) {
-				$li.data('wait').show().siblings().hide();
 				var url = (t == 'contact_us' && $li.data('mode') == 'full') ? 
 					cc.contactsFullUrl : // exception for contact tab in full mode
 					cc.urls[mode] + t; 
@@ -287,4 +287,3 @@
 
 	// jQuery('#md_splash').
 		// click(function(e) { e.stopPropagation(); e.preventDefault(); cc.showTabByName('contact_us', 'full') });
-});
